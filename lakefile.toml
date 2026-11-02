@@ -1,0 +1,11 @@
+name = "CertChip8"
+version = "0.1.0"
+defaultTargets = ["chip8_emu"]
+
+[[lean_exe]]
+name = "chip8_emu"
+root = "Main"
+
+[[require]]
+name = "raylean"
+git = "https://github.com/funexists/raylean"
